@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "fitness",
+    "slug": "fitness",
+    "version": "1.0.0",
+    "plugins": ["@react-native-google-signin/google-signin"],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/asset/Fitti.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "NOTIFICATIONS",
+      "USER_FACING_NOTIFICATIONS"
+      ]
+      
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+    
+  }
+}
